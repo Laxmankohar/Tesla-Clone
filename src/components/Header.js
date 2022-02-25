@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import styled from "styled-components";
-import CloseIcon from '@m-ui/icons/Close';
+import CloseIcon from '@mui/icons-material/Close';
 import { selectCars } from '../features/car/carSlice';
 import {useSelector} from 'react-redux'
 
