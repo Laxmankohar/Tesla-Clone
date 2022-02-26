@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import styled from "styled-components";
-import CloseIcon from '@mui/icons-material/Close';
+import CloseIcon from '@material-ui/icons/Close';
 import { selectCars } from '../features/car/carSlice';
 import {useSelector} from 'react-redux'
 
@@ -12,7 +12,7 @@ function Header() {
 
   return (
     <Container>
-      <a href='#'>
+      <a>
         <img src="/images/logo.svg" alt="" />
       </a>
       <Menu>
